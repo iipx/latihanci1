@@ -161,7 +161,7 @@
 			          </a>
 			        </li>
 
-			        <li class="treeview <?php if( ($final_url_other == 'admin/slider/add')||($final_url_other == 'admin/slider')||($final_url_other == 'admin/slider/edit') ) {echo 'active';} ?>">
+			        <!-- <li class="treeview <?php if( ($final_url_other == 'admin/slider/add')||($final_url_other == 'admin/slider')||($final_url_other == 'admin/slider/edit') ) {echo 'active';} ?>">
 			          <a href="<?php echo base_url(); ?>admin/slider">
 			            <i class="fa fa-picture-o"></i> <span>Slider</span>
 			          </a>
@@ -171,9 +171,28 @@
 			          <a href="<?php echo base_url(); ?>admin/service">
 			            <i class="fa fa-briefcase"></i> <span>Service</span>
 			          </a>
+
+			        </li> -->
+
+					<li class="treeview <?php if( ($final_url_other == 'admin/project/add')||($final_url_other == 'admin/project')||($final_url_other == 'admin/service/edit') ) {echo 'active';} ?>">
+			          <a href="<?php echo base_url(); ?>admin/project">
+			            <i class="fa fa-laptop"></i> <span>Project</span>
+			          </a>
 			        </li>
 
-			        <li class="treeview <?php if( ($final_url_other == 'admin/faq/add')||($final_url_other == 'admin/faq')||($final_url_other == 'admin/faq/edit')||($final_url_other == 'admin/faq/main-photo') ) {echo 'active';} ?>">
+			        <li class="treeview <?php if( ($final_url_other == 'admin/task/add')||($final_url_other == 'admin/task')||($final_url_other == 'admin/service/edit') ) {echo 'active';} ?>">
+			          <a href="<?php echo base_url(); ?>admin/task">
+			            <i class="fa fa-briefcase"></i> <span>Task</span>
+			          </a>
+			        </li>
+
+			        <li class="treeview <?php if( ($final_url_other == 'admin/group/add')||($final_url_other == 'admin/group')||($final_url_other == 'admin/service/edit') ) {echo 'active';} ?>">
+			          <a href="<?php echo base_url(); ?>admin/group">
+			            <i class="fa fa-address-book"></i> <span>Group</span>
+			          </a>
+			        </li>
+
+<!-- 			        <li class="treeview <?php if( ($final_url_other == 'admin/faq/add')||($final_url_other == 'admin/faq')||($final_url_other == 'admin/faq/edit')||($final_url_other == 'admin/faq/main-photo') ) {echo 'active';} ?>">
 						<a href="#">
 							<i class="fa fa-random"></i>
 							<span>FAQ</span>
@@ -185,9 +204,9 @@
 							<li><a href="<?php echo base_url(); ?>admin/faq"><i class="fa fa-circle-o"></i>FAQ</a></li>
 							<li><a href="<?php echo base_url(); ?>admin/faq/main-photo"><i class="fa fa-circle-o"></i> Main Photo</a></li>
 						</ul>
-					</li>
+					</li> -->
 
-					<li class="treeview <?php if( ($final_url_other == 'admin/photo/add')||($final_url_other == 'admin/photo')||($final_url_other == 'admin/photo/edit') ) {echo 'active';} ?>">
+<!-- 					<li class="treeview <?php if( ($final_url_other == 'admin/photo/add')||($final_url_other == 'admin/photo')||($final_url_other == 'admin/photo/edit') ) {echo 'active';} ?>">
 						<a href="#">
 							<i class="fa fa-camera"></i>
 							<span>Photo Gallery</span>
@@ -198,8 +217,8 @@
 						<ul class="treeview-menu">
 							<li><a href="<?php echo base_url(); ?>admin/photo"><i class="fa fa-circle-o"></i>Photo</a></li>
 						</ul>
-					</li>
-
+					</li> -->
+<!-- 
 			        <li class="treeview <?php if( ($final_url_other == 'admin/portfolio/add')||($final_url_other == 'admin/portfolio')||($final_url_other == 'admin/portfolio/edit')||($final_url_other == 'admin/portfolio-category/add')||($final_url_other == 'admin/portfolio-category')||($final_url_other == 'admin/portfolio-category/edit') ) {echo 'active';} ?>">
 						<a href="#">
 							<i class="fa fa-bars"></i>
@@ -212,7 +231,7 @@
 							<li><a href="<?php echo base_url(); ?>admin/portfolio-category"><i class="fa fa-circle-o"></i> Portfolio Category</a></li>
 							<li><a href="<?php echo base_url(); ?>admin/portfolio"><i class="fa fa-circle-o"></i> Portfolio</a></li>
 						</ul>
-					</li>
+					</li> -->
 
 					<li class="treeview <?php if( ($final_url_other == 'admin/designation/add')||($final_url_other == 'admin/designation')||($final_url_other == 'admin/designation/edit')||($final_url_other == 'admin/team-member/add')||($final_url_other == 'admin/team-member')||($final_url_other == 'admin/team-member/edit') ) {echo 'active';} ?>">
 						<a href="#">
@@ -227,7 +246,7 @@
 							<li><a href="<?php echo base_url(); ?>admin/team-member"><i class="fa fa-circle-o"></i> Team Member</a></li>
 						</ul>
 					</li>
-
+<!-- 
 
 			        <li class="treeview <?php if( ($final_url_other == 'admin/testimonial/add')||($final_url_other == 'admin/testimonial')||($final_url_other == 'admin/testimonial/edit')||($final_url_other == 'admin/testimonial/main-photo') ) {echo 'active';} ?>">
 						<a href="#">
@@ -301,7 +320,7 @@
 			        <li class="treeview <?php if( ($final_url_other == 'admin/social-media') ) {echo 'active';} ?>">
 			          <a href="<?php echo base_url(); ?>admin/social-media">
 			            <i class="fa fa-address-book"></i> <span>Social Media</span>
-			          </a>
+			          </a> -->
 			        </li>
 
 			        <?php endif; ?>        
