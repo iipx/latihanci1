@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Service extends CI_Controller 
+class Task extends CI_Controller 
 {
 	function __construct() 
 	{
@@ -17,7 +17,7 @@ class Service extends CI_Controller
 		$data['service'] = $this->Model_service->show();
 
 		$this->load->view('admin/view_header',$header);
-		$this->load->view('admin/view_service',$data);
+		$this->load->view('admin/view_task',$data);
 		$this->load->view('admin/view_footer');
 	}
 
