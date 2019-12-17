@@ -173,6 +173,11 @@
 			          </a>
 
 			        </li> -->
+					<li class="treeview <?php if( ($final_url_other == 'admin/user/add')||($final_url_other == 'admin/user')||($final_url_other == 'admin/user/edit') ) {echo 'active';} ?>">
+			          <a href="<?php echo base_url(); ?>admin/user">
+			            <i class="fa fa-laptop"></i> <span>Users</span>
+			          </a>
+			        </li>
 
 					<li class="treeview <?php if( ($final_url_other == 'admin/project/add')||($final_url_other == 'admin/project')||($final_url_other == 'admin/service/edit') ) {echo 'active';} ?>">
 			          <a href="<?php echo base_url(); ?>admin/project">
@@ -231,7 +236,7 @@
 							<li><a href="<?php echo base_url(); ?>admin/portfolio-category"><i class="fa fa-circle-o"></i> Portfolio Category</a></li>
 							<li><a href="<?php echo base_url(); ?>admin/portfolio"><i class="fa fa-circle-o"></i> Portfolio</a></li>
 						</ul>
-					</li> -->
+					</li> 
 
 					<li class="treeview <?php if( ($final_url_other == 'admin/designation/add')||($final_url_other == 'admin/designation')||($final_url_other == 'admin/designation/edit')||($final_url_other == 'admin/team-member/add')||($final_url_other == 'admin/team-member')||($final_url_other == 'admin/team-member/edit') ) {echo 'active';} ?>">
 						<a href="#">
@@ -245,7 +250,7 @@
 							<li><a href="<?php echo base_url(); ?>admin/designation"><i class="fa fa-circle-o"></i> Designation</a></li>
 							<li><a href="<?php echo base_url(); ?>admin/team-member"><i class="fa fa-circle-o"></i> Team Member</a></li>
 						</ul>
-					</li>
+					</li> -->
 <!-- 
 
 			        <li class="treeview <?php if( ($final_url_other == 'admin/testimonial/add')||($final_url_other == 'admin/testimonial')||($final_url_other == 'admin/testimonial/edit')||($final_url_other == 'admin/testimonial/main-photo') ) {echo 'active';} ?>">
