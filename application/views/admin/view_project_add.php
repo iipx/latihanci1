@@ -45,7 +45,8 @@ if(!$this->session->userdata('id')) {
 						<div class="form-group">
 							<label for="" class="col-sm-2 control-label">Description </label>
 							<div class="col-sm-6">
-								<input type="text" autocomplete="off" class="form-control" name="description" value="<?php if(isset($_POST['description'])){echo $_POST['description'];} ?>">
+								  <textarea class="form-control rounded-0"  name="description" id="description" rows="5"></textarea>
+
 							</div>
 						</div>
 						<div class="form-group">
@@ -84,7 +85,7 @@ if(!$this->session->userdata('id')) {
 						
 						
 						<div class="form-group">
-								<input type="hidden" autocomplete="off" class="form-control" name="owner" value="<?php if(isset($_POST['owner'])){echo $_POST['owner'];} ?>">
+								<input type="hidden" autocomplete="off" class="form-control" name="owner" value="<?php if(isset($_POST['owner'])){echo $_POST['owner'];}else{echo $this->session->userdata('id');} ?>">
 						</div>
 
 

@@ -34,6 +34,9 @@ class Project extends CI_Controller
 			$valid = 1;
 
 			$this->form_validation->set_rules('name', 'Name', 'trim|required');
+			$this->form_validation->set_rules('status', 'Status', 'required');
+			$this->form_validation->set_rules('start', 'Project Start', 'required');
+			$this->form_validation->set_rules('end', 'Project End', 'required');
 
 			if($this->form_validation->run() == FALSE) {
 				$valid = 0;
